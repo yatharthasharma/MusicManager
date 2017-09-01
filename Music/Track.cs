@@ -26,11 +26,11 @@ namespace Music
         }
         public string GetArtist()
         {
-            return this.artist.GetName();
+            return artist.GetName();
         }
         public string GetAlbum()
         {
-            return this.album.GetTitle();
+            return album.GetTitle();
         }
         public void SetAlbum(Album album)
         {

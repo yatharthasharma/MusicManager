@@ -1,26 +1,48 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Reflection;
 
 namespace Music
 {
     class Album
     {
-        public Album() { }
         private string title;
         private Artist artist;
         private HashSet<Track> tracks;
+        public Album() { tracks = new HashSet<Track>(); }
         public Album(string artistName)
         {
             tracks = new HashSet<Track>();
-            artist = new Artist();
-            artist.SetName(artistName);
+            foreach (Artist x in Artist.GetArtists())
+            {
+                if (artistName != x.GetName())
+                {
+                    artist = new Artist(artistName);
+                }
+                else if (artistName == x.GetName())
+                {
+                    artist = x;
+                }
+                else { }
+            }
         }
         public Album(string title, string artistName)
         {
             this.title = title;
             tracks = new HashSet<Track>();
-            artist.SetName(artistName);
+            foreach (Artist x in Artist.GetArtists())
+            {
+                if (artistName != x.GetName())
+                {
+                    artist = new Artist(artistName);
+                }
+                else if (artistName == x.GetName())
+                {
+                    artist = x;
+                }
+                else { }
+            }
         }
         public string GetTitle()
         {
@@ -33,7 +55,8 @@ namespace Music
         public void AddTrack(Track track)
         {
             tracks.Add(track);
-            track.
+            track.SetArtist(GetArtist());
+            track.SetAlbum(this);
         }
         public void GetTrack()
         {
@@ -45,6 +68,10 @@ namespace Music
             }
             Console.WriteLine();
             trackNames = null;
+        }
+        public Artist GetArtist()
+        {
+            return artist;
         }
     }
 }

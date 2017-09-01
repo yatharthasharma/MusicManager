@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "targets": {
     ".NETCoreApp,Version=v1.1": {
       "Libuv/1.9.1": {
@@ -2426,7 +2426,7 @@
       ]
     },
     "Microsoft.NETCore.App/1.1.2": {
-      "sha512": "fcN0Ob6rjY7Zu0770cA5l9wRJvj7+ltJPPdryUidejkkhao+y2AYrtezBTlP9nCSFXLmYR9BtaknORT17x8reA==",
+      "sha512": "TUPK1xhef7WcbsIkhfZOz6J7DrG5aebjVRBswPfHe90eDhfnlWHaLiI1OtMB2O78bf5d37WO6ge+9nel2keKkA==",
       "type": "package",
       "path": "microsoft.netcore.app/1.1.2",
       "files": [
@@ -2450,7 +2450,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostPolicy/1.1.2": {
-      "sha512": "nes7MaBG1zWz44m+zR4SDiOVmpCFiY49BcJGRaIO0TqjsLZmuUQVXEGcNZFlme95dlaki9QYJr4FK5NKNlPA6Q==",
+      "sha512": "fD2UWfXXY+FgPWVqvpNo2/d7b/LHYl1/aepVimYYkVsuF4CczP8hgCJIlKiUbWF/d98xCMtz7bbuv6LkGfdfeQ==",
       "type": "package",
       "path": "microsoft.netcore.dotnethostpolicy/1.1.2",
       "files": [
@@ -7037,19 +7037,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yatha\\.nuget\\packages\\": {}
+    "C:\\Users\\yathartha.sharma\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\yatha\\Documents\\Visual Studio 2017\\Projects\\MusicManager\\Music\\Music.csproj",
+      "projectUniqueName": "C:\\Users\\yathartha.sharma\\Documents\\Visual Studio 2017\\Projects\\MusicManager\\Music\\Music.csproj",
       "projectName": "Music",
-      "projectPath": "C:\\Users\\yatha\\Documents\\Visual Studio 2017\\Projects\\MusicManager\\Music\\Music.csproj",
-      "outputPath": "C:\\Users\\yatha\\Documents\\Visual Studio 2017\\Projects\\MusicManager\\Music\\obj\\",
+      "projectPath": "C:\\Users\\yathartha.sharma\\Documents\\Visual Studio 2017\\Projects\\MusicManager\\Music\\Music.csproj",
+      "packagesPath": "C:\\Users\\yathartha.sharma\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yathartha.sharma\\Documents\\Visual Studio 2017\\Projects\\MusicManager\\Music\\obj\\",
       "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\yathartha.sharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
