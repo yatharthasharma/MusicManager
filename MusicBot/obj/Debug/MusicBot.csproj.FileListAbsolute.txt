@@ -1,0 +1,44 @@
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\Bot Application.dll.config
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\Bot Application.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\Bot Application.pdb
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\Autofac.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\Chronic.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\Microsoft.Bot.Builder.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\Microsoft.Bot.Connector.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\Newtonsoft.Json.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\System.Net.Http.Formatting.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\System.Web.Http.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\System.Web.Http.WebHost.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\Autofac.xml
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\Microsoft.Bot.Builder.xml
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\Microsoft.Bot.Connector.xml
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\Newtonsoft.Json.xml
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\System.Net.Http.Formatting.xml
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\System.Web.Http.xml
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\System.Web.Http.WebHost.xml
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\it\Microsoft.Bot.Builder.resources.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\nl\Microsoft.Bot.Builder.resources.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\pt-BR\Microsoft.Bot.Builder.resources.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\obj\Debug\MusicBot.csprojResolveAssemblyReference.cache
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\obj\Debug\MusicBot.csproj.CoreCompileInputs.cache
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\obj\Debug\Bot Application.dll
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\obj\Debug\Bot Application.pdb

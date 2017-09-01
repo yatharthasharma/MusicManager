@@ -16,15 +16,14 @@ namespace Music
             tracks = new HashSet<Track>();
             foreach (Artist x in Artist.GetArtists())
             {
-                if (artistName != x.GetName())
-                {
-                    artist = new Artist(artistName);
-                }
-                else if (artistName == x.GetName())
+                if (artistName == x.GetName())
                 {
                     artist = x;
                 }
-                else { }
+            }
+            if (artist == null)
+            {
+                artist = new Artist(artistName);
             }
         }
         public Album(string title, string artistName)
@@ -33,15 +32,14 @@ namespace Music
             tracks = new HashSet<Track>();
             foreach (Artist x in Artist.GetArtists())
             {
-                if (artistName != x.GetName())
-                {
-                    artist = new Artist(artistName);
-                }
-                else if (artistName == x.GetName())
+                if (artistName == x.GetName())
                 {
                     artist = x;
                 }
-                else { }
+            }
+            if (artist == null)
+            {
+                artist = new Artist(artistName);
             }
         }
         public string GetTitle()
