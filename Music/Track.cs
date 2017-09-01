@@ -11,14 +11,10 @@ namespace Music
         private Album album;
         public Track()
         {
-            artist = new Artist();
-            album = new Album();
         }
         public Track(string title)
         {
             this.title = title;
-            artist = new Artist();
-            album = new Album();
         }
         public string GetTitle()
         {
@@ -36,13 +32,13 @@ namespace Music
         {
             return this.album.GetTitle();
         }
-        public string SetAlbum()
+        public void SetAlbum(Album album)
         {
-             = album;
+             this.album = album;
         }
-        public string GetArtist()
+        public void SetArtist(Artist artist)
         {
-            return this.artist.GetName();
+            this.artist = artist;
         }
     }
 }
