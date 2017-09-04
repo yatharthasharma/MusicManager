@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v1.1": {
-      "music/1.0.0": {
+      "Music/1.0.0": {
         "runtime": {
           "Music.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "music/1.0.0": {
+    "Music/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

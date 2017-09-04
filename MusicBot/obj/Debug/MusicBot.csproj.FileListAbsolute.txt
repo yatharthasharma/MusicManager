@@ -42,3 +42,6 @@ C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\Mus
 C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\obj\Debug\MusicBot.csproj.CoreCompileInputs.cache
 C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\obj\Debug\Bot Application.dll
 C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\obj\Debug\Bot Application.pdb
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\ConsoleApp1.exe
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\ConsoleApp1.pdb
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\MusicBot\bin\ConsoleApp1.exe.config

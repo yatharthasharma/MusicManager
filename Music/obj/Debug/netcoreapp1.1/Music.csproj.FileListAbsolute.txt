@@ -8,3 +8,4 @@ C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\Mus
 C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\Music\bin\Debug\netcoreapp1.1\Music.pdb
 C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\Music\obj\Debug\netcoreapp1.1\Music.dll
 C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\Music\obj\Debug\netcoreapp1.1\Music.pdb
+C:\Users\yathartha.sharma\Documents\Visual Studio 2017\Projects\MusicManager\Music\obj\Debug\netcoreapp1.1\Music.AssemblyInfoInputs.cache
