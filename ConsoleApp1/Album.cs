@@ -11,7 +11,7 @@ namespace Music
         private Artist artist;
         private HashSet<Track> tracks;
         public Album() { tracks = new HashSet<Track>(); }
-        public Album(string artistName)
+        /*public Album(string artistName)
         {
             tracks = new HashSet<Track>();
             foreach (Artist x in Artist.GetArtists())
@@ -19,13 +19,14 @@ namespace Music
                 if (artistName == x.GetName())
                 {
                     artist = x;
+                    break;
                 }
             }
             if (artist == null)
             {
                 artist = new Artist(artistName);
             }
-        }
+        }*/
         public Album(string title, string artistName)
         {
             this.title = title;
@@ -35,6 +36,7 @@ namespace Music
                 if (artistName == x.GetName())
                 {
                     artist = x;
+                    break;
                 }
             }
             if (artist == null)

@@ -1,6 +1,6 @@
 # MusicManager
 A bot created in C# and with the use of Bot Framework and LUIS AI from Microsoft that can store tracks, albums and artists based on the commands given by the user.
-You can also get back the list of all the tracks associated with an album or artist.
+You can also get back the list of all the tracks associated with an album or artist. (Some functionality already added, some being added at the moment...)
 
 This project is made in Visual Studio 2017 and you can use git commands to clone this or just download and import it in Visual Studio as a project. In addition to having Visual Studio
 on your machine, you also need to have a bot framework emulator that you can download from the Microsoft website.

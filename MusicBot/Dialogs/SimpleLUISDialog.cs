@@ -18,8 +18,7 @@ namespace MusicBot
         {
             // create new track
             string trackName = "";
-            EntityRecommendation rec;
-            if (result.TryFindEntity("trackName", out rec))
+            if (result.TryFindEntity("trackName", out EntityRecommendation rec))
             {
                 trackName = rec.Entity;
                 Track newTrack = new Track(trackName);
@@ -37,8 +36,7 @@ namespace MusicBot
         {
             //await context.PostAsync("CreateArtist intent method start.");     // for testing
             string artistName = "";
-            EntityRecommendation rec;
-            if (result.TryFindEntity("artistName", out rec))
+            if (result.TryFindEntity("artistName", out EntityRecommendation rec))
             {
                 artistName = rec.Entity;
                 Artist newArtist = new Artist(artistName);
@@ -58,9 +56,7 @@ namespace MusicBot
         {
             string albumName = "";
             string artistName = "";
-            EntityRecommendation getArtistName;
-            EntityRecommendation getAlbumName;
-            if (result.TryFindEntity("artistName", out getArtistName) && result.TryFindEntity("albumName", out getAlbumName))
+            if (result.TryFindEntity("artistName", out EntityRecommendation getArtistName) && result.TryFindEntity("albumName", out EntityRecommendation getAlbumName))
             {
                 artistName = getArtistName.Entity;
                 albumName = getAlbumName.Entity;
@@ -69,7 +65,38 @@ namespace MusicBot
             }
             else
             {
-                await context.PostAsync($"Sorry, you did not provide valid names for the new album and/or artist.");
+                await context.PostAsync($"Sorry, you did not provide valid names for the album and/or artist.");
+            }
+            context.Wait(MessageReceived);
+        }
+
+        // get tracks associated with a specific artist
+        [LuisIntent("GetTracksFromArtist")]
+        public async Task GetTracksFromArtist(IDialogContext context, LuisResult result)
+        {
+            string artistName = "";
+            if (result.TryFindEntity("albumName", out EntityRecommendation getArtistName))
+            {
+                artistName = getArtistName.Entity;
+                int count = 0;
+                Artist[] tempArray = new Artist[Artist.GetArtists().Count];
+                Artist.GetArtists().CopyTo(tempArray);
+                while ((artistName != tempArray[count].GetName()) && count < Artist.GetArtists().Count)
+                {
+                    count++;
+                }
+                if (artistName == tempArray[count].GetName())
+                {
+                    foreach (Artist x in tempArray)
+                    {
+                        await context.PostAsync($"Artist '{ artistName }''s tracks: ' {x.GetName()} '");
+                    }
+                }
+                await context.PostAsync($"Sorry, you did not provide a valid name for the artist.");
+            }
+            else
+            {
+                await context.PostAsync($"Sorry, you did not provide a valid name for the artist.");
             }
             context.Wait(MessageReceived);
         }
