@@ -23,6 +23,6 @@ Now everything in detail!
 1. Download this project.
 2. Import the project in Visual Studio 2017.
 3. Build and run the project with any browser on your system. 
-4. Once the programs runs successfully, open bot emulator and navigate to http://localhost:3979/api/messages (ignore the User ID and Password fields).
+4. Once the program runs successfully, open bot emulator and navigate to http://localhost:3979/api/messages (ignore the User ID and Password fields).
 5. Start typing in the commands and follow the bot!
 6. If your commands cannot run for some reason, type in 'help' and the bot will return all the commands that it can work with.
