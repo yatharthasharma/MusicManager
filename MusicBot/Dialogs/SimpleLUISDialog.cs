@@ -100,6 +100,13 @@ namespace MusicBot
             }
             context.Wait(MessageReceived);
         }
+        // to get help with list of commands
+        [LuisIntent("Help")]
+        public async Task Help(IDialogContext context, LuisResult result)
+        {
+            await context.PostAsync($"To add track: 'add track 'trackname'', To add artist: 'add artist 'artistname'', To add album to artist: 'add album 'albumname' to artist 'artistname'', To add track to artist: 'add track 'trackname' to artist 'artistname'', To get list of tracks of an artist: 'get tracks of artist 'artistname'', To see commands again: 'help'");
+            context.Wait(MessageReceived);
+        }
         // if the statement doesn't match any of the criteria for methods
         [LuisIntent("")]
         public async Task None(IDialogContext context, LuisResult result)

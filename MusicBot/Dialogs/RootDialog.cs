@@ -30,7 +30,7 @@ namespace MusicBot.Dialogs
             if (activity.Text.Contains("wowo"))
             {
                 Track x = new Track("Why");
-                Album xx = new Album("Avril Lavigne 1.0");
+                Album xx = new Album("Avril Lavigne 1.0","");
                 xx.AddTrack(x);
                 await context.PostAsync($"The track {x} has been added to the album {xx}");
             }
