@@ -47,5 +47,16 @@ namespace Music
         {
             return artists;
         }
+        public static Artist GetArtistByName(string name)
+        {
+            foreach (Artist x in artists)
+            {
+                if (name == x.name)
+                {
+                    return x;
+                }
+            }
+            return null;
+        }
     }
 }

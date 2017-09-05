@@ -69,7 +69,27 @@ namespace MusicBot
             }
             context.Wait(MessageReceived);
         }
-
+        // add track to artist
+        [LuisIntent("AddTrackToArtist")]
+        public async Task AddTrackToArtist(IDialogContext context, LuisResult result)
+        {
+            string artistName = "";
+            string trackName = "";
+            if (result.TryFindEntity("artistName", out EntityRecommendation rec) && result.TryFindEntity("trackName", out EntityRecommendation rex))
+            {
+                artistName = rec.Entity;
+                trackName = rex.Entity;
+                Artist newArtist = new Artist(artistName);
+                Artist currentArtist = Artist.GetArtistByName(artistName);
+                currentArtist.GetTracks().Add(new Track(trackName));
+                await context.PostAsync($"The track '{ trackName }' has been created and added to the artist '{artistName}'.");
+            }
+            else
+            {
+                await context.PostAsync("Sorry, you did not provide a valid names for the new artist/track.");
+            }
+            context.Wait(MessageReceived);
+        }
         // get tracks associated with a specific artist
         [LuisIntent("GetTracksFromArtist")]
         public async Task GetTracksFromArtist(IDialogContext context, LuisResult result)
