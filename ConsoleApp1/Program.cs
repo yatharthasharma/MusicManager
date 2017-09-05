@@ -33,20 +33,20 @@ namespace Music
             album3.AddTrack(track2);
             album3.AddTrack(track3);
             album3.GetTrack();
-            Console.WriteLine("The album for track4 is: " + track4.GetAlbum());
-            Console.WriteLine("The artist for track4 is: " + track4.GetArtist());
+            Console.WriteLine("The album for track4 is: " + track4.GetAlbumName());
+            Console.WriteLine("The artist for track4 is: " + track4.GetArtistName());
             Console.WriteLine();
-            Console.WriteLine("The album for track1 is: " + track1.GetAlbum());
-            Console.WriteLine("The artist for track1 is: " + track1.GetArtist());
+            Console.WriteLine("The album for track1 is: " + track1.GetAlbumName());
+            Console.WriteLine("The artist for track1 is: " + track1.GetArtistName());
             Console.WriteLine();
-            Console.WriteLine("The album for track5 is: " + track5.GetAlbum());
-            Console.WriteLine("The artist for track5 is: " + track5.GetArtist());
+            Console.WriteLine("The album for track5 is: " + track5.GetAlbumName());
+            Console.WriteLine("The artist for track5 is: " + track5.GetArtistName());
             Console.WriteLine();
-            Console.WriteLine("The album for track2 is: " + track2.GetAlbum());
-            Console.WriteLine("The artist for track2 is: " + track2.GetArtist());
+            Console.WriteLine("The album for track2 is: " + track2.GetAlbumName());
+            Console.WriteLine("The artist for track2 is: " + track2.GetArtistName());
             Console.WriteLine();
-            Console.WriteLine("The album for track3 is: " + track3.GetAlbum());
-            Console.WriteLine("The artist for track3 is: " + track3.GetArtist());
+            Console.WriteLine("The album for track3 is: " + track3.GetAlbumName());
+            Console.WriteLine("The artist for track3 is: " + track3.GetArtistName());
         }
     }
 }

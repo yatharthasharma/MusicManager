@@ -4,14 +4,13 @@ using System.Text;
 
 namespace Music
 {
+    // skeleton class used to create tracks, get and set artist/album name.
     public class Track
     {
-        private string title;
-        private Artist artist;
-        private Album album;
-        public Track()
-        {
-        }
+        private string title;       // track name
+        private Artist artist;      // track artist
+        private Album album;        // track album
+        // make a track with the constructor
         public Track(string title)
         {
             this.title = title;
@@ -24,11 +23,11 @@ namespace Music
         {
             this.title = title;
         }
-        public string GetArtist()
+        public string GetArtistName()
         {
             return artist.GetName();
         }
-        public string GetAlbum()
+        public string GetAlbumName()
         {
             return album.GetTitle();
         }
