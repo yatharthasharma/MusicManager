@@ -92,7 +92,11 @@ namespace MusicBot
                         await context.PostAsync($"Artist '{ artistName }''s tracks: ' {x.GetName()} '");
                     }
                 }
-                await context.PostAsync($"Sorry, you did not provide a valid name for the artist.");
+                else
+                {
+                    await context.PostAsync($"Sorry, there's no artist with this name.");
+                }
+                
             }
             else
             {
