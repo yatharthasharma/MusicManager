@@ -10,12 +10,14 @@ namespace Music
         private HashSet<Track> tracks;              // all the tracks of a particular artist
         private HashSet<Album> albums;              // albums of a particular artist
         private static HashSet<Artist> artists = new HashSet<Artist>();            // assume no two artists with the same name
-        public Artist()                             // constructor - set artist name, instantiate list of tracks and albums
+
+        /* public Artist()                             // constructor - set artist name, instantiate list of tracks and albums
         {
             artists.Add(this);
             tracks = new HashSet<Track>();
             albums = new HashSet<Album>();
-        }
+        }*/
+
         public Artist(string name)                  // constructor - set artist name, instantiate list of tracks and albums
         {
             artists.Add(this);

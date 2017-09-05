@@ -2,42 +2,51 @@
 
 namespace Music
 {
+    /// <summary>
+    /// This class only used during the early stages of development for testing purposes.
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
         {
-            Track x = new Track("Complicated");
-            Track y = new Track("Wish you were here");
-            Track z = new Track("When you're gone");
-            Track xyz = new Track("firework");
-            Track xy = new Track();
-            Track xx = new Track("Why");
+            // adding new tracks.
+            Track track1 = new Track("Complicated");
+            Track track2 = new Track("Wish you were here");
+            Track track3 = new Track("When you're gone");
+            Track track4 = new Track("firework");
+            Track track5 = new Track("Why");
+
+            // adding artists.
             Artist avril = new Artist("avril");
             Artist katy = new Artist("KATY");
-            Album al = new Album("avrilsfirst", "avril");
-            Album a3 = new Album("perrybro", "perry");
-            a3.AddTrack(xyz);
-            al.AddTrack(x);
-            al.AddTrack(xx);
-            al.GetTrack();
-            Album a2 = new Album("avrilssecond", "avril");
-            a2.AddTrack(y);
-            a2.AddTrack(z);
-            a2.GetTrack();
-            Console.WriteLine("The album for xyz is: " + xyz.GetAlbum());
-            Console.WriteLine("The artist for xyz is: " + xyz.GetArtist());
+
+            // adding albums using the two parameter constructor.
+            Album album1 = new Album("Avril 1.0", "Avril");
+            Album album2 = new Album("Katy", "Katy Perry");
+            Album album3 = new Album("Avril 2.0", "Avril");
+
+            // adding tracks to albums and then checking (by printing out to console) if the application puts in the correct tracks in the correct albums.
+            album2.AddTrack(track4);
+            album1.AddTrack(track1);
+            album1.AddTrack(track5);
+            album1.GetTrack();
+            album3.AddTrack(track2);
+            album3.AddTrack(track3);
+            album3.GetTrack();
+            Console.WriteLine("The album for track4 is: " + track4.GetAlbum());
+            Console.WriteLine("The artist for track4 is: " + track4.GetArtist());
             Console.WriteLine();
-            Console.WriteLine("The album for x is: " + x.GetAlbum());
-            Console.WriteLine("The artist for x is: " + x.GetArtist());
+            Console.WriteLine("The album for track1 is: " + track1.GetAlbum());
+            Console.WriteLine("The artist for track1 is: " + track1.GetArtist());
             Console.WriteLine();
-            Console.WriteLine("The album for xx is: " + xx.GetAlbum());
-            Console.WriteLine("The artist for xx is: " + xx.GetArtist());
+            Console.WriteLine("The album for track5 is: " + track5.GetAlbum());
+            Console.WriteLine("The artist for track5 is: " + track5.GetArtist());
             Console.WriteLine();
-            Console.WriteLine("The album for y is: " + y.GetAlbum());
-            Console.WriteLine("The artist for y is: " + y.GetArtist());
+            Console.WriteLine("The album for track2 is: " + track2.GetAlbum());
+            Console.WriteLine("The artist for track2 is: " + track2.GetArtist());
             Console.WriteLine();
-            Console.WriteLine("The album for z is: " + z.GetAlbum());
-            Console.WriteLine("The artist for z is: " + z.GetArtist());
+            Console.WriteLine("The album for track3 is: " + track3.GetAlbum());
+            Console.WriteLine("The artist for track3 is: " + track3.GetArtist());
         }
     }
 }
