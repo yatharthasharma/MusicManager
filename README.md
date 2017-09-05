@@ -26,3 +26,8 @@ Now everything in detail!
 4. Once the program runs successfully, open bot emulator and navigate to http://localhost:3979/api/messages (ignore the User ID and Password fields).
 5. Start typing in the commands and follow the bot!
 6. If your commands cannot run for some reason, type in 'help' and the bot will return all the commands that it can work with.
+
+# Some notes
+1. Some bits of code in C# (like using get and set methods for fields instead of get/set with variable declaration in C#) have been coded in a Java-like style instead of C#-like style. This is because this is the first time I am working on C#, so if you face any difficulties grasping the code apologies for that, it will be fixed soon! 
+2. Since I am still working on this project, more functionality may be added in the near future.
+3. I am still in the training phase of LUIS AI Intents so sometimes the bot does not respond as expected which will get fixed as Intents and utterances are added/recognised by the AI more accurately.
