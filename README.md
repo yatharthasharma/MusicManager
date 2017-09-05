@@ -6,7 +6,7 @@ This project is made in Visual Studio 2017 and you can use git commands to clone
 
 The solution has two projects -
 
-1. Music - Involves basic skeleton code which does all the actual work - adding and getting of tracks/albums/artists.
+1. ConsoleApp1 - Involves basic skeleton code which does all the actual work - adding and getting of tracks/albums/artists.
 2. MusicBot - This project connects the whole program with LUIS AI and uses the commands to get the intent.
 
 More functionality being added as you read this...
