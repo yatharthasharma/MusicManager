@@ -33,6 +33,7 @@ namespace Music
             album3.AddTrack(track2);
             album3.AddTrack(track3);
             album3.GetTrack();
+
             Console.WriteLine("The album for track4 is: " + track4.GetAlbumName());
             Console.WriteLine("The artist for track4 is: " + track4.GetArtistName());
             Console.WriteLine();

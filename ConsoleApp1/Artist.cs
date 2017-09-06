@@ -7,12 +7,12 @@ namespace Music
     // skeleton class used to create artists, instantiate the list of tracks and albums associated with a particular artist and some elementary methods.
     public class Artist
     {
-        private string name;                        // artist name
-        private HashSet<Track> tracks;              // all the tracks of a particular artist
-        private HashSet<Album> albums;              // albums of a particular artist
-        private static HashSet<Artist> artists = new HashSet<Artist>();            // to keep track of all the artists - assume no two artists have the same name.
+        private string name;                                                        // artist name
+        private HashSet<Track> tracks;                                              // all the tracks of a particular artist (no duplicates)
+        private HashSet<Album> albums;                                              // albums of a particular artist (no duplicates)
+        private static HashSet<Artist> artists = new HashSet<Artist>();             // to keep track of all the artists - no two artists have the same name.
 
-        /* public Artist()                             // constructor - set artist name, instantiate list of tracks and albums, only used while testing.
+        /* public Artist()                          // constructor - set artist name, instantiate list of tracks and albums, only used while testing.
         {
             artists.Add(this);
             tracks = new HashSet<Track>();
@@ -21,12 +21,14 @@ namespace Music
 
         public Artist(string name)                  // constructor - set artist name, instantiate list of tracks and albums
         {
-            artists.Add(this);
-            this.name = name;
+            artists.Add(this);                      // add the new artist created to the static list of all the artists.
+            this.name = name;                       // set name
+
             // when creating a new artist, automatically instantiate its list of tracks and albums.
             tracks = new HashSet<Track>();          
             albums = new HashSet<Album>();
         }
+        // getters and setters for different private fields.
         public string GetName()
         {
             return name;
@@ -39,6 +41,10 @@ namespace Music
         {
             return tracks;
         }
+        public void AddAlbum(Album album)
+        {
+            albums.Add(album);
+        }
         public HashSet<Album> GetAlbums()
         {
             return albums;
@@ -47,11 +53,11 @@ namespace Music
         {
             return artists;
         }
-        public static Artist GetArtistByName(string name)
-        {
+        public static Artist GetArtistByName(string name)   // this method is used when we need to add track to a specific artist - use this method
+        {                                                   // to get the artist by its name. - used in MusicBot.Dialogs.SimpleLUISDialog class.
             foreach (Artist x in artists)
             {
-                if (name == x.name)
+                if (name == x.GetName())
                 {
                     return x;
                 }
