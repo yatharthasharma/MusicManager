@@ -30,4 +30,4 @@ Now everything in detail!
 # Some additional notes
 1. Some bits of code in C# (like using get and set methods for fields instead of get/set with variable declaration in C#) have been coded in a Java-like style instead of C#-like style. This is because this is the first time I am working on C#, so if you face any difficulties grasping the code apologies for that, it will be fixed soon! 
 2. Since I am still working on this project, more functionality may be added in the near future.
-3. I am still in the training phase of LUIS AI Intents so sometimes the bot does not respond as expected which will get fixed as Intents and utterances start getting added/recognised by the AI more accurately.
+
