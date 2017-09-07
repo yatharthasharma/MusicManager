@@ -64,5 +64,25 @@ namespace Music
             }
             return null;
         }
+        public bool IsAlbumAvailable(string name)
+        {
+            foreach (Album x  in GetAlbums())
+            {
+                if (name == x.GetTitle())
+                    return true;
+            }
+            return false;
+        }
+        public static bool IsArtistAvailable(string name)
+        {
+            foreach(Artist x in GetArtists())
+            {
+                if (name == x.GetName())
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }

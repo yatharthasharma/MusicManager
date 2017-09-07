@@ -48,6 +48,26 @@ namespace Music
             Console.WriteLine();
             Console.WriteLine("The album for track3 is: " + track3.GetAlbumName());
             Console.WriteLine("The artist for track3 is: " + track3.GetArtistName());
+
+            Artist x = new Artist("Test1");
+            Album y = new Album("Testing","Test1");
+            Track z = new Track("Whywhy");
+            y.AddTrack(z);
+            Console.WriteLine(z.GetArtistName() + ", " + z.GetAlbumName());
+            foreach (Track track in x.GetTracks())
+            {
+                Console.WriteLine(track.GetTitle());
+            }
+            Artist w = new Artist("Test1");
+            foreach (Track track in x.GetTracks())
+            {
+                Console.WriteLine(track.GetTitle() + "this is x track");
+            }
+            foreach (Track track in w.GetTracks())
+            {
+                Console.WriteLine(track.GetTitle() + "this is w track");
+            }
+            Console.WriteLine(z.GetArtistName() + ", " + z.GetAlbumName());
         }
     }
 }

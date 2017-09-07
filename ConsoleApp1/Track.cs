@@ -38,6 +38,7 @@ namespace Music
         public void SetArtist(Artist artist)
         {
             this.artist = artist;
+            artist.GetTracks().Add(this);
         }
     }
 }

@@ -80,6 +80,10 @@ namespace Music
             Console.WriteLine();
             trackTempArray = null;
         }
+        public HashSet<Track> GetTracks()
+        {
+            return tracks;
+        }
         // getter for artist
         public Artist GetArtist()
         {
